@@ -25,7 +25,7 @@ height: 100px;
     z-index: 50;
     position: fixed;
     top: 0;
-    margin-right: 10px;     
+      
     
 }
 .menu ul {
@@ -33,20 +33,20 @@ height: 100px;
     list-style-type: none;
     text-transform: uppercase;
     z-index: 50; 
-    overflow: hidden;
     background-color: #09829A;
     
     
 }
 .menu li {
     float: left ;
-    color: #fec045;
+    color: #fec046;
     font-size: 20px; 
     text-shadow: 2px 2px 3px #666666;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
     background-color: #09829A;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow: hidden;
+    
+    margin: 0;
 
 }
 
@@ -69,14 +69,20 @@ height: 100px;
     
     margin: 0 auto 0 auto;   
     font-size: 100%;
-    
     width: 1000px;
     background-color: white;
     float: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(14, 13, 13, 0.596);
-    
+
 }
+.welcome a{
+    text-decoration: none;
+    color: rgb(92, 83, 83);
+    display: inline;
+    text-shadow: none;
+}
+
 h1 {
     color: #09829A;
 }
@@ -90,37 +96,41 @@ img.logo_front {
 }
    
 
-#footer {
-    
-    
+.footer {
     text-align: center;
     margin: 20px auto 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(14, 13, 13, 0.596);
+    color: rgb(255, 255, 255);
     background-color: #0A91AB;
+    text-decoration: none;
+}
+
+#footer a{
+    text-decoration: none;
 }
 
 a {
     display: block;
     color:  #fec045;
     text-decoration: none; 
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 3px rgb(70, 64, 64);
 }
 a:link a:visited a:active {
     color:  #fbfe45;
     text-decoration: none; 
 }
 
-a:hover {
-    color:  #fffb07;
-    
+ul a:hover  {
+    color:  #eef136;
+    transition-duration: 100ms;
+    transform: scale(1.05);
 }
 
 img.collection3 {
-    display: block;
+    display: inline-block;
     margin: 30px auto 30px auto; 
     box-shadow: 0px 0px 10px grey;
     flex-flow: row;
@@ -128,4 +138,17 @@ img.collection3 {
 }
 img.fb {
     height: 70px;
+}
+       
+.footer_align {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.collection_photo {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 490px;
+    text-align: center;
+    margin: auto;
 }
